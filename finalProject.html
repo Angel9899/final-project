@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB-115 Final Project</title>
+    <script src="projectJS.js"></script>
+</head>
+<body>
+    <h1>Meal plan</h1>
+<form>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" required><br>
+    
+    <label for="goal">Goal:</label>
+    <input type="text" id="goal" required><br>
+    
+    <h2>Weekly meal plan</h2>
+    
+    <h3>Monday</h3>
+    <label for="mondayBreakfast">Breakfast:</label>
+    <input type="text" id="mondayBreakfast" required><br>
+    <label for="mondaySnack">Snack:</label>
+    <input type="text" id="mondaySnack" required><br>
+    <label for="mondayLunch">Lunch:</label>
+    <input type="text" id="mondayLunch" required><br>
+    <label for="mondaySnack2">Snack:</label>
+    <input type="text" id="mondaySnack2" required><br>
+    <label for="mondayDinner">Dinner:</label>
+    <input type="text" id="mondayDinner" required><br>
+	
+
+    
+    <!-- Repeat the above structure for the remaining days of the week -->
+    <button type="reset">rest meal plan</button>
+    <button onclick="makeMealPlan()">Generate Meal Plan</button>
+	
+	<button type="button" onclick="displayMealPlan()">Display meal plan</button>
+</form>
+    
+</body>
+</html>
